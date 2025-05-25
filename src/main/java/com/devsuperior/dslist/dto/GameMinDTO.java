@@ -5,6 +5,7 @@ import com.devsuperior.dslist.projections.GameMinProjection;
 
 public class GameMinDTO {
 	
+	private Integer position;
 	private Long id;
 	private String title;
 	private Integer year;
@@ -24,6 +25,7 @@ public class GameMinDTO {
 	}
 	
 	public GameMinDTO(GameMinProjection projection) {
+		position = projection.getPosition();
 		id = projection.getId();
 		title = projection.getTitle();
 		year = projection.getYear();
@@ -49,6 +51,14 @@ public class GameMinDTO {
 
 	public String getShortDescription() {
 		return shortDescription;
+	}
+
+	public Integer getPosition() {
+		return position;
+	}
+
+	public void setPosition(Integer position) {
+		this.position = position;
 	}
 
 	
