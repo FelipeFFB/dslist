@@ -1,0 +1,1 @@
+Projeto de estudo sobre Java Spring Boot, com o desenvolvimento de um projeto prático de desenvolvimento de um backend para uma aplicação de listagem de jogos, durante uma semana de "intensivão" de aulas sobre o framework de Java Spring Boot, junto com aplicação prática dos conhecimentos adquiridos.
